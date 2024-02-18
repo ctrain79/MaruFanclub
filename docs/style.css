@@ -5,6 +5,14 @@ body {
   font-family: sans-serif;
 }
 
+header, footer {
+  background: rgb(25, 26, 52);
+  color: white;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 main {
   display: flex;
   flex-flow: row nowrap;
@@ -23,13 +31,22 @@ main {
   padding: 40px;
   background: rgb(47, 52, 81);
   color: white;
+  flex: 1;
 }
 
-a {
+#right-panel p {
+  width: 400px;
+}
+
+#right-panel iframe {
+  display: block;
+}
+
+#left-panel a {
   display: block;
   color: rgb(255, 255, 194);
 }
 
-a:visited {
+#left-panel a:visited {
   color: rgb(134, 212, 196);
 }
