@@ -20,6 +20,16 @@ main {
 }
 
 #right-panel {
-  background: rgb(47, 52, 81);
   padding: 40px;
+  background: rgb(47, 52, 81);
+  color: white;
+}
+
+a {
+  display: block;
+  color: rgb(255, 255, 194);
+}
+
+a:visited {
+  color: rgb(134, 212, 196);
 }
