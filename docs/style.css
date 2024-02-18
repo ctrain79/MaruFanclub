@@ -12,12 +12,14 @@ main {
   width: 100%;
 }
 
-.left-panel {
-  width: 100 px;
+#left-panel {
+  width: 200 px;
   background: rgb(50, 45, 45);
   color: white;
+  padding: 20px;
 }
 
-.right-panel {
+#right-panel {
   background: rgb(47, 52, 81);
+  padding: 40px;
 }
