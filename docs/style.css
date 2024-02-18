@@ -1,0 +1,23 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.left-panel {
+  width: 100 px;
+  background: rgb(50, 45, 45);
+  color: white;
+}
+
+.right-panel {
+  background: rgb(47, 52, 81);
+}
